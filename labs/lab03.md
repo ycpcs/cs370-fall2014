@@ -1,7 +1,7 @@
-restindex  
-crumb: Lab 3 format: rest page-title: Lab 3: Linear Algebra encoding: utf-8 output-encoding: None initialheaderlevel: 2 build: yes include: yes
-
-/restindex
+---
+layout: default
+title: "Lab 3: Linear Algebra"
+---
 
 Linear algebra, i.e. the manipulation of vectors and matrices, has a fundamental role in computer graphics. The graphics pipeline is optimized to perform certain linear algebra computations in a single (vector) operation. In particular, seemingly different quantities, e.g. vertices, colors, textures, etc., can all be represented in a similar manner and manipulated using identical linear algebra operations. While a thorough understanding of linear algebra is not necessary to program computer graphics, a working knowledge is essential if one wishes to develop a new graphics API and/or write custom shaders that require user defined computations. This lab will introduce linear algebra in a 2D context, however these concepts will easily generalize to 3D (and even 4D) in the near future.
 
@@ -11,8 +11,6 @@ Linear algebra, i.e. the manipulation of vectors and matrices, has a fundamental
 Download [CS370\_Lab03.zip](src/CS370_Lab03.zip), saving it into the **labs** directory.
 
 Double-click on **CS370\_Lab03.zip** and extract the contents of the archive into a subdirectory called **CS370\_Lab03**
-
-Open Visual Studio 2012 through **Start -\> All Programs -\> Programming -\> Visual Studio 2012**.
 
 Navigate into the **CS370\_Lab03** directory and double-click on **CS370\_Lab03.sln** (the file with the little Visual Studio icon with the 12 on it).
 
@@ -90,9 +88,7 @@ manually compute the new vertices that result from applying the following matrix
 
 > ![image](images/lab03/HexTrans.png)
 
--   Add code to **render\_scene()** to draw two polygons, one red using the original vertices and one green with the transformed ones.
-
-What is the difference between the two polygons?
+-   Add code to **render\_scene()** to draw two polygons, one red using the original vertices and one green with the transformed ones. What is the difference between the two polygons?
 
 -   Computing transformations by hand is cumbersome to say the least. I've included a function called **Trans2D()** that takes a transformation matrix as a 2D float array, a vector as a 1D float array, and an output vector as a 1D float array that will contain the transformed vector. Use this function along with the provided global variables to compute transformed vertices. Display the polygons with these two sets of vertices (note you can use the **glVertex2fv()** form to use an array as a vertex). Hint: Perform all the transformations **before** rendering the polygon with **glBegin()**/**glEnd()**.
 -   Experiment with different values of the matrix elements to see the resulting transformed polygons.
