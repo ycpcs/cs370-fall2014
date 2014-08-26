@@ -12,6 +12,7 @@ All information about the course will be posted here.
 
 * [Schedule](schedule/index.html)
 * [Labs](labs/index.html)
+* [Assignments](assign/index.html)
 * [Resources](resources.html)
 * [Syllabus](syllabus.html)
 
