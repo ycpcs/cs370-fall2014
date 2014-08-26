@@ -10,7 +10,9 @@ All information about the course will be posted here.
 
 ## Links
 
+* [Schedule](schedule/index.html)
 * [Labs](labs/index.html)
+* [Resources](resources.html)
 * [Syllabus](syllabus.html)
 
 ## News
