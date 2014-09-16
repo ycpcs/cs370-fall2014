@@ -34,7 +34,7 @@ static void mytimer(int v);
 The timer is a *one-shot* event, i.e. only triggers once. Therefore to produce a recurring timer event, simply issue the same registration call as initially but at the end of the timer callback itself. Thus a typical timer callback has the form
 
 ```cpp
-mytimer(int v)
+static void mytimer(int v)
 {
 	// Timer code
 
