@@ -55,7 +55,7 @@ shaderObj = glCreateShader(type);
 where *shaderObj* is a **GLuint** index for the shader and *type* is the type of shader we wish to create - **GL\_VERTEX\_SHADER** or **GL\_FRAGMENT\_SHADER**. We must then *associate* a shader object (identifier) with the appropriate shader source buffer using
 
 ```cpp
-    glShaderSource(shaderObj, num_buff, (const GLchar**) &shaderSrc, NULL);
+glShaderSource(shaderObj, num_buff, (const GLchar**) &shaderSrc, NULL);
 ```
 
 where *shaderObj* is the identifier previously created, *num\_buff* is the number of buffers to obtain the source from (typically 1), and *shaderSrc* is the text buffer from the previous section that contains the shader source code (NOTE: It must be *cast* as a **constant GLchar**** double pointer and then passed by reference). The fourth parameter indicates that the buffer is *null terminated*. At this point we are ready to begin compiling the shaders.
