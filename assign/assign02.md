@@ -47,7 +47,7 @@ If the source file is not already open in the main window, open the source file 
 2. Programming assignment
 =========================
 
-Write a program that draws a 3D "train" scene using OpenGL. A sample executable is available [here](sol/RollinTrainSol.zip). The scene should include:
+Write a program that draws a 3D "train" scene using OpenGL. A sample executable is included in the skeleton file as either **RollinTrainWinSol.exe** or **RollinTrainMacSol.exe**. The scene should include:
 
 -   A train with a body, engineer's compartment, smoke stack with funnel, six wheels spaced appropriately with spokes that rotate as the train moves.
 -   A pair of tracks that have evenly spaced railroad ties below the tracks.
