@@ -25,9 +25,9 @@ OP: [OpenGL: A Primer – 3rd Edition.](http://www.pearsonhighered.com/educator/
 > Sept 30 | [Lab 12: Basic Lighting](../labs/lab12.html) | OPG: Ch. 7 <br /> OP: Ch. 6 | [CS370_Lab12.zip](../labs/src/CS370_Lab12.zip)
 > Oct 2   | [Lab 13: Light Sources](../labs/lab13.html) |  | [CS370_Lab13.zip](../labs/src/CS370_Lab13.zip)
 > Oct 7   | [Lab 14: Recursive Subdivision](../labs/lab14.html) |  | [CS370_Lab14.zip](../labs/src/CS370_Lab14.zip)
-> Oct 9   | [Lab 15: Simple Shadows](../labs/lab15.html) <br /> **Milestone 1 Due** |  | [CS370_Lab15.zip](../labs/src/CS370_Lab15.zip)
+> Oct 9   | [Lab 15: Simple Shadows](../labs/lab15.html)  |  | [CS370_Lab15.zip](../labs/src/CS370_Lab15.zip)
 > Oct 14  | **NO CLASS - Fall Break** | |
-> Oct 16  | [Lab 16: Scene Graphs](../labs/lab16.html) |  | [CS370_Lab16.zip](../labs/src/CS370_Lab16.zip)
+> Oct 16  | [Lab 16: Scene Graphs](../labs/lab16.html) <br /> **Milestone 1 Due** |  | [CS370_Lab16.zip](../labs/src/CS370_Lab16.zip)
 > Oct 21  | [Lab 17: Alpha Blending](../labs/lab17.html) | OPG: Ch. 4 <br /> OP: Ch. 6.10 | [CS370_Lab17.zip](../labs/src/CS370_Lab17.zip)
 > Oct 23  | Exam Review <br /> **Assignment 3 Due** |  | 
 > Oct 28  | **EXAM II** | |
