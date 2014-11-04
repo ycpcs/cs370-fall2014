@@ -171,7 +171,6 @@ color = vec4(mix(color.rgb,gl_TextureEnvColor[0].rgb,texture.rgb), color.a*textu
 
 -   Add code to **main( )** to associate the global variable **texSampler** with the *uniform* shader variable **texMap**. (Use the function **glGetUniformLocation( )**).
 -   Add code to **main()** to assign **texSampler** to the value 0 (i.e. the program will only need one texture unit 0). (Use the function **glUniform1i( )**).
--   Add code to **main( )** to assign **texSampler** to the value 0 (i.e. the program will only need one texture unit 0). (Use the function **glUniform1i( )**).
 -   Add code to **texturevert.vs** in **main( )** to pass the texture coordinate set in the application (stored in the built-in shader variable **gl\_MultiTexCoord0**) to the fragment shader through **gl\_TexCoord[0]**.
 
 	```cpp
