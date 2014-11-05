@@ -36,7 +36,7 @@ If the source file is not already open in the main window, open the source file 
 2. Programming assignment
 =========================
 
-Write a program that draws a 3D scene of a walking robot with articulated arms and legs along with a spinning teapot in a translucent box. A sample executable is included in the [solution](sol/TeaManSol.zip) zip file as **TeaManSolWin.exe** or **TeaManSolMac.exe** (the Mac version should be run from the command line). The scene should include:
+Write a program that draws a 3D scene of a walking robot with articulated arms and legs along with a spinning teapot in a translucent box. A sample executable is included in the skeleton zip file as **TeaManSolWin.exe** or **TeaManSolMac.exe** (the Mac version should be run from the command line). The scene should include:
 
 -   There should be a billboarded background image of your choosing (or you may use the included **robotfactory\_2.JPG** file).
 -   A *scene graph* to render the robot, teapot, and box. Create materials to enhance the scene appearance.

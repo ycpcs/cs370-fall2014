@@ -67,7 +67,7 @@ If the shader files are not already open in the main window, open the shader fil
 2. Programming assignment
 =========================
 
-Write a program that draws a 3D stage scene with three "actors" and several lights using OpenGL. A sample executable is available [here](sol/LimeLightSol.zip). The scene should include:
+Write a program that draws a 3D stage scene with three "actors" and several lights using OpenGL. A sample executable is available in the skeleton zip file. The scene should include:
 
 -   A stage which is a rectangular cube with an elliptical front. Recursively subdivide the rectangle top face for proper light effect. Create a display list for the entire stage (otherwise performance will *drastically* suffer).
 -   Three "actors" on the stage consisting of a cube, sphere, and octahedron.
