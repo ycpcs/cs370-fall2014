@@ -26,3 +26,8 @@ All information about the course will be posted here.
 * **Oct 16** - FINAL PROJECT, Milestone 1 Demo.
 * **Oct 27** - Assignment 3 (Limelight) Due.
 * **Oct 28 - EXAM II.**
+* **Nov 18** - Assignment 4 (TeaMan) Due.
+* **Nov 20 - EXAM III.**
+* **Nov 25** - FINAL PROJECT, Milestone 2 Demo.
+* **Nov 27** - NO CLASS - Thanksgiving Break.
+* **Dec 11 - FINAL PROJECT DEMOS 10:15am-12:15pm** [Submission Instructions](assign/ProjectSubmit.html)
